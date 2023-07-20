@@ -5,4 +5,4 @@ In this work, we present an Federated Learning (FL) method based on a neural net
 
 This method was published in the following article:
 
-Fontenla-Romero O., Guijarro-Berdiñas B., Hernández-Pereira E., Pérez-Sánchez B. (2023) FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks. Future Generation Computer Systems. Accepted. In process of publication. Open Access. DOI: https://doi.org/10.1016/j.future.2023.07.018
+Fontenla-Romero O., Guijarro-Berdiñas B., Hernández-Pereira E., Pérez-Sánchez B. (2023) FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks. Future Generation Computer Systems. In Press, Journal Pre-proof. Open Access. DOI: https://doi.org/10.1016/j.future.2023.07.018
