@@ -1,8 +1,39 @@
 # FedHEONN
-Federated and homomorphically encrypted learning method for one-layer neural networks
 
-In this work, we present an Federated Learning (FL) method based on a neural network without hidden layers that incorporates homomorphic encryption (HE). Unlike traditional FL methods that require multiple rounds of training for convergence, our method obtains the collaborative global model in a single training round, yielding an effective and efficient model that simplifies management of the FL training process. In addition, since our method includes HE, it is also robust against model inversion attacks.
+Federated and homomorphically encrypted learning method for one-layer neural networks.
+
+FedHEONN is a Federated Learning (FL) method based on a neural network without hidden layers that incorporates homomorphic encryption (HE). Unlike traditional FL methods that require multiple rounds of training for convergence, our method obtains the collaborative global model in a single training round, yielding an effective and efficient model that simplifies management of the FL training process. In addition, since our method includes HE, it is also robust against model inversion attacks.
+
+## Prerequisites
+
+The implementation employs the following libraries:
+
+- [tenseal](https://github.com/OpenMined/TenSEAL#features)
+- numpy
+- scipy
+
+To run the usage example (main.py) the following libraries are also needed:
+
+- pandas
+- sklearn
+
+
+## Publications
 
 This method was published in the following article:
 
-Fontenla-Romero O., Guijarro-Berdiñas B., Hernández-Pereira E., Pérez-Sánchez B. (2023) FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks. Future Generation Computer Systems. In Press, Journal Pre-proof. Open Access. DOI: https://doi.org/10.1016/j.future.2023.07.018
+O. Fontenla-Romero, B. Guijarro-Berdiñas, E. Hernández-Pereira, B. Pérez-Sánchez (2023) [FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks](https://doi.org/10.1016/j.future.2023.07.018). Future Generation Computer Systems. In Press, Journal Pre-proof. Open Access.
+
+    @article{fedHEONN2023,
+        author = {Oscar Fontenla-Romero and Bertha Guijarro-Berdiñas and Elena Hernández-Pereira and Beatriz Pérez-Sánchez},
+        title = {TenSEAL: A Library for Encrypted Tensor Operations Using Homomorphic Encryption}, 
+        journal = {Future Generation Computer Systems},
+        year = {2023},
+        volume = {In press},
+        pages  = {In press},    
+        doi = {https://doi.org/10.1016/j.future.2023.07.018},
+    }
+
+## License
+
+[GPL-3.0-only](https://opensource.org/license/gpl-3-0/)
