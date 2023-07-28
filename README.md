@@ -12,7 +12,7 @@ The implementation employs the following libraries:
 - numpy
 - scipy
 
-To run the usage example (main.py) the following libraries are also needed:
+To run the usage examples (example_classification.py and example_regression.py) the following libraries are also needed:
 
 - pandas
 - sklearn
