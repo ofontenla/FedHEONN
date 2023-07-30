@@ -8,7 +8,7 @@ FedHEONN is a Federated Learning (FL) method based on a neural network without h
 
 The implementation employs the following libraries:
 
-- [tenseal](https://github.com/OpenMined/TenSEAL#features)
+- [tenseal](https://github.com/OpenMined/TenSEAL)
 - numpy
 - scipy
 
@@ -22,7 +22,7 @@ To run the usage examples ([example_classification.py](https://github.com/ofonte
 
 This method was published in the following article:
 
-O. Fontenla-Romero, B. Guijarro-Berdiñas, E. Hernández-Pereira, B. Pérez-Sánchez (2023) [FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks](https://doi.org/10.1016/j.future.2023.07.018). Future Generation Computer Systems. In Press, Journal Pre-proof. Open Access.
+O. Fontenla-Romero, B. Guijarro-Berdiñas, E. Hernández-Pereira, B. Pérez-Sánchez (2023) [FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks](https://doi.org/10.1016/j.future.2023.07.018). Future Generation Computer Systems 149, pp. 200-211. Open Access.
 
     @article{fedHEONN2023,
         author = {Oscar Fontenla-Romero and Bertha Guijarro-Berdiñas and Elena Hernández-Pereira and Beatriz Pérez-Sánchez},
