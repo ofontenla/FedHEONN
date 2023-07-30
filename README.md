@@ -26,11 +26,11 @@ O. Fontenla-Romero, B. Guijarro-Berdiñas, E. Hernández-Pereira, B. Pérez-Sán
 
     @article{fedHEONN2023,
         author = {Oscar Fontenla-Romero and Bertha Guijarro-Berdiñas and Elena Hernández-Pereira and Beatriz Pérez-Sánchez},
-        title = {TenSEAL: A Library for Encrypted Tensor Operations Using Homomorphic Encryption}, 
+        title = {FedHEONN: Federated and homomorphically encrypted learning method for one-layer neural networks}, 
         journal = {Future Generation Computer Systems},
+        volume = {149},
+        pages  = {200-211},
         year = {2023},
-        volume = {In press},
-        pages  = {In press},    
         doi = {https://doi.org/10.1016/j.future.2023.07.018},
     }
 
